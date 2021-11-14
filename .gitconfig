@@ -1,0 +1,14 @@
+[user]
+	name = hyakk1
+	email = me@hyakki.io
+[commit]
+	template = /home/hyakk1/.gitmessage
+[merge]
+  ff = false
+[pull]
+  ff = only
+  rebase = true
+[includeIf "gitdir:~/web/idw/"]
+	path = ~/.gitconfig.idw
+[init]
+	defaultBranch = main

@@ -1,0 +1,8 @@
+[user]
+  name = Maxime Parisse
+  email = maxime.parisse@idweaver.com
+[merge]
+  ff = false
+[pull]
+  ff = only
+  rebase = true
