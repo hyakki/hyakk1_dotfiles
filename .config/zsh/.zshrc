@@ -66,9 +66,7 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 # ===
 if [ -z "$SSH_AUTH_SOCK" ] ; then
  eval `ssh-agent -s` &> /dev/null
- ssh-add ~/.ssh/idw_rsa &> /dev/null
- ssh-add ~/.ssh/hyakk1_github_rsa &> /dev/null
- ssh-add ~/.ssh/hyakk1_azure_rsa &> /dev/null
+ grep -slR "PRIVATE" ~/.ssh/ | xargs -I _ ssh-add _ &> /dev/null
 fi
 
 # ===
