@@ -4,6 +4,8 @@
 alias c='clear'
 alias v='nvim'
 alias vim='nvim'
+alias exal='exa --git -l'
+alias exat='exa --git -l -T -L 1'
 
 # ===========
 # GIT ALIASES
@@ -50,5 +52,3 @@ alias kraken='liquidctl -n 1 set fan speed 40 && liquidctl -n 3 set fan speed 40
 # alias music:m='sudo mount -t nfs 192.168.1.5:/volume1/Music /media/NAS/Music'
 # alias music:u='sudo umount -t nfs 192.168.1.5:/volume1/Music /media/NAS/Music'
 # alias music:p='sh $HOME/.config/tmux/music.sh'
-
-alias pfwbtest='cd ~/web/hyakk1/hyakk1_jest_v1 && yarn test tests/routes.test.js'

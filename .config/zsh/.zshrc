@@ -31,6 +31,11 @@ source ~/.config/zsh/aliases.zsh
 # =========
 source ~/.config/zsh/languages.zsh
 
+# =
+# Z
+# =
+. /usr/local/bin/z.sh
+
 # ===
 # ZSH
 # ===
